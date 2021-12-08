@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}body{
+    background-color: blanchedalmond;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    background-color: black;
+    height: 68px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    color: white;
+}
+.banner{
+    margin-top: 10px;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(pantai.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(11, 12, 12, 0.6);
+}
+.banner a{
+    text-decoration: none;
+    color: #fff;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+section{
+    padding: 50px 0;
+}
